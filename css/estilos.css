@@ -31,3 +31,25 @@ a{
   overflow: hidden;
   z-index: 1000;
 }
+
+
+/*Barnner*/
+
+.slider_banner{
+  overflow: hidden;
+  z-index: 1000;
+  position: relative;
+}
+.slider_banner .banner{
+  position: relative;
+  width: 100%;
+}
+
+.slider_banner .banner img{
+  vertical-align: top; /*Elimina espaciado entre imagenes.. en la parte de arriba*/
+  width: 100%;
+  position: absolute; /*montara las imagenes una encima de otra.*/
+  top:0;
+  left: 100%;
+
+}
