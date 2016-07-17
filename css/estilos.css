@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+padding: 0;
+box-sizing: border-box;;
+}
+
+body{
+  background: url('../img/bg.png');
+  background-size: cover;
+  background-attachment: fixed;/*evita que se mueva el fondo*/
+
+}
+
+a{
+  text-decoration: none;
+
+}
+
+.contenedor{
+  width: 90%;
+  max-width: 700px;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.tarjeta{
+  background: #fff;
+  margin: 40px 0px;
+  border-radius: 5px;
+  overflow: hidden;
+  z-index: 1000;
+}
